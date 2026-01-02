@@ -46,7 +46,7 @@ async def test_deployed_mcp_server():
     """Test the deployed MCP server with proper AWS authentication."""
     
     # Agent ARN from deployment
-    agent_arn = "arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
+    agent_arn = "arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
     
     print(f"🧪 Testing deployed MCP server: {agent_arn}")
     
