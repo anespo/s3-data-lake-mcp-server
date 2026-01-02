@@ -1,0 +1,60 @@
+default_agent: s3_data_lake_mcp_server
+agents:
+  s3_data_lake_mcp_server:
+    name: s3_data_lake_mcp_server
+    entrypoint: /Users/anespo28gmail.com/projects/mcp_server_etl/s3_data_lake_mcp_server.py
+    deployment_type: direct_code_deploy
+    runtime_type: PYTHON_3_10
+    platform: linux/arm64
+    container_runtime: null
+    source_path: /Users/anespo28gmail.com/projects/mcp_server_etl
+    aws:
+      execution_role: arn:aws:iam::025073416907:role/AmazonBedrockAgentCoreSDKRuntime-eu-west-1-3ab7543063
+      execution_role_auto_create: false
+      account: 025073416907
+      region: eu-west-1
+      ecr_repository: null
+      ecr_auto_create: false
+      s3_path: s3://bedrock-agentcore-codebuild-sources-025073416907-eu-west-1
+      s3_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: MCP
+      observability:
+        enabled: true
+      lifecycle_configuration:
+        idle_runtime_session_timeout: null
+        max_lifetime: null
+    bedrock_agentcore:
+      agent_id: s3_data_lake_mcp_server-wyeGrTEgwU
+      agent_arn: arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU
+      agent_session_id: 1cf10e29-5bae-42e9-b6b4-5f8229bc0f20
+    codebuild:
+      project_name: null
+      execution_role: null
+      source_bucket: null
+    memory:
+      mode: STM_AND_LTM
+      memory_id: agentcore_app_mem-8V637zGQ6E
+      memory_arn: null
+      memory_name: s3_data_lake_mcp_server_memory
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    identity:
+      credential_providers: []
+      workload: null
+    aws_jwt:
+      enabled: false
+      audiences: []
+      signing_algorithm: ES384
+      issuer_url: null
+      duration_seconds: 300
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+    api_key_env_var_name: null
+    api_key_credential_provider_name: null
+    is_generated_by_agentcore_create: false

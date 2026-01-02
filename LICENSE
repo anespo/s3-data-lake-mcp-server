@@ -1,0 +1,55 @@
+S3 Data Lake MCP Server - Custom License
+
+Copyright (c) 2026 Tony Esposito <tony@mydataclub.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use
+the Software for non-commercial purposes only, subject to the following conditions:
+
+PERMITTED USES:
+- Personal use and learning
+- Academic research and education
+- Non-commercial development and testing
+- Evaluation and demonstration purposes
+- Open source contributions back to this project
+
+RESTRICTIONS:
+- Commercial use is prohibited without explicit written permission from the copyright holder
+- Distribution of modified versions requires attribution to the original author
+- The Software may not be used in any commercial product or service without a separate commercial license
+- Sublicensing is not permitted without explicit written permission
+
+CONDITIONS:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+Any commercial use, including but not limited to:
+- Using the Software in a commercial product or service
+- Selling access to the Software or its functionality
+- Using the Software to generate revenue
+- Incorporating the Software into commercial offerings
+
+requires a separate commercial license agreement. Please contact tony@mydataclub.com
+for commercial licensing terms.
+
+DISCLAIMER:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ATTRIBUTION:
+When using this Software, you must provide attribution to Tony Esposito and
+include a link to the original repository.
+
+For questions about licensing or to request commercial use permissions,
+contact: tony@mydataclub.com
+
+---
+
+This license is inspired by AWS's approach to open-source projects that allow
+non-commercial use while protecting commercial interests. It encourages learning,
+research, and community contributions while ensuring commercial value is preserved.
