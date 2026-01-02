@@ -6,7 +6,7 @@ Your S3 Data Lake MCP Server has been successfully deployed to AWS AgentCore Run
 
 ### 📋 **Deployment Details**
 
-- **Agent ARN**: `arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU`
+- **Agent ARN**: `arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU`
 - **Region**: eu-west-1
 - **Status**: ✅ Operational
 - **Tools**: 8 S3 data lake tools available
@@ -60,7 +60,7 @@ class SigV4HTTPXAuth(httpx.Auth):
         yield request
 
 # Create MCP client for AgentCore Runtime
-agent_arn = "arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
+agent_arn = "arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
 encoded_arn = agent_arn.replace(':', '%3A').replace('/', '%2F')
 mcp_url = f"https://bedrock-agentcore.eu-west-1.amazonaws.com/runtimes/{encoded_arn}/invocations"
 
@@ -103,7 +103,7 @@ Add this configuration to your Kiro MCP settings:
   "mcpServers": {
     "s3-data-lake": {
       "command": "python",
-      "args": ["/Users/anespo28gmail.com/projects/mcp_server_etl/kiro_s3_mcp_wrapper.py"],
+      "args": ["/Users/yourdirectory/projects/mcp_server_etl/kiro_s3_mcp_wrapper.py"],
       "env": {
         "AWS_REGION": "eu-west-1",
         "AWS_PROFILE": "default"
@@ -131,7 +131,7 @@ You can test the deployed MCP server using AWS CLI:
 # List S3 buckets
 echo '{"jsonrpc": "2.0", "id": "test-2", "method": "tools/call", "params": {"name": "list_s3_buckets", "arguments": {}}}' | base64 | \
 aws bedrock-agentcore invoke-agent-runtime \
-  --agent-runtime-arn "arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU" \
+  --agent-runtime-arn "arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU" \
   --content-type "application/json" \
   --accept "application/json, text/event-stream" \
   --payload file:///dev/stdin \
@@ -141,7 +141,7 @@ aws bedrock-agentcore invoke-agent-runtime \
 # Get dataset summary for demo bucket
 echo '{"jsonrpc": "2.0", "id": "test-3", "method": "tools/call", "params": {"name": "get_dataset_summary", "arguments": {"bucket_name": "s3-data-lake-mcp-demo"}}}' | base64 | \
 aws bedrock-agentcore invoke-agent-runtime \
-  --agent-runtime-arn "arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU" \
+  --agent-runtime-arn "arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU" \
   --content-type "application/json" \
   --accept "application/json, text/event-stream" \
   --payload file:///dev/stdin \
