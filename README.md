@@ -52,7 +52,7 @@ Then AWS Bedrock AgentCore dropped MCP support, and everything clicked. This MCP
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and install dependencies
-git clone https://github.com/yourusername/s3-data-lake-mcp-server.git
+git clone https://github.com/anespo/s3-data-lake-mcp-server.git
 cd s3-data-lake-mcp-server
 uv sync
 ```
@@ -229,11 +229,7 @@ This project is licensed under a custom license allowing non-commercial use. See
 
 ## 👨‍💻 **About the Author**
 
-Built by **Tony Esposito** - Senior Developer with 15+ years of experience in:
-- 🤖 Generative AI & LLM applications
-- 🏗️ AWS Bedrock & AgentCore systems
-- 🔧 AI/ML agent architectures
-- 📊 Data engineering & ETL systems
+Built by **Tony Esposito** 
 
 *Turning complex data infrastructure into simple, agent-accessible APIs.*
 
