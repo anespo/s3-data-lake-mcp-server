@@ -32,7 +32,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # AgentCore Runtime configuration
-AGENT_ARN = "arn:aws:bedrock-agentcore:eu-west-1:025073416907:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
+AGENT_ARN = "arn:aws:bedrock-agentcore:eu-west-1:1234567890:runtime/s3_data_lake_mcp_server-wyeGrTEgwU"
 REGION = "eu-west-1"
 SERVICE_NAME = "bedrock-agentcore"
 
