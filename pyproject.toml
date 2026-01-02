@@ -3,7 +3,7 @@ name = "s3-data-lake-mcp-server"
 version = "1.0.0"
 description = "MCP server for reading and querying data from S3 bucket data lakes"
 authors = [
-    {name = "AWS AgentCore Team", email = "agentcore@example.com"}
+    {name = "Tony Esposito", email = "tony@mydataclub.com"}
 ]
 readme = "README.md"
 license = {text = "MIT"}
@@ -52,10 +52,10 @@ s3-mcp-server = "s3_data_lake_mcp_server:main"
 upload-sample-data = "upload_sample_data:main"
 
 [project.urls]
-Homepage = "https://github.com/aws/s3-data-lake-mcp-server"
-Documentation = "https://github.com/aws/s3-data-lake-mcp-server#readme"
-Repository = "https://github.com/aws/s3-data-lake-mcp-server"
-Issues = "https://github.com/aws/s3-data-lake-mcp-server/issues"
+Homepage = "https://github.com/anespo/s3-data-lake-mcp-server"
+Documentation = "https://github.com/anespo/s3-data-lake-mcp-server#readme"
+Repository = "https://github.com/anespo/s3-data-lake-mcp-server"
+Issues = "https://github.com/anespo/s3-data-lake-mcp-server/issues"
 
 [build-system]
 requires = ["hatchling"]
