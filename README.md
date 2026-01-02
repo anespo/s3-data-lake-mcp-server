@@ -229,11 +229,8 @@ This project is licensed under a custom license allowing non-commercial use. See
 
 ## 👨‍💻 **About the Author**
 
-Built by **Tony Esposito** - Senior Developer with 15+ years of experience in:
-- 🤖 Generative AI & LLM applications
-- 🏗️ AWS Bedrock & AgentCore systems
-- 🔧 AI/ML agent architectures
-- 📊 Data engineering & ETL systems
+Built by **Tony Esposito** 
+
 
 *Turning complex data infrastructure into simple, agent-accessible APIs.*
 
