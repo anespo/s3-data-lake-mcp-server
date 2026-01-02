@@ -100,9 +100,8 @@ Built by Tony Esposito - Senior Developer with 15+ years in AI/ML and AWS system
 ### **Step 5: Make It Viral**
 
 1. **Pin Repository** on your GitHub profile
-2. **Share LinkedIn Post** from `docs/linkedin_viral_post.md`
-3. **Tweet About It** with hashtags: #AWS #MCP #AI #Agents #DataLake
-4. **Submit to Communities**:
+2. **Share on Social Media** with hashtags: #AWS #MCP #AI #Agents #DataLake
+3. **Submit to Communities**:
    - Reddit: r/MachineLearning, r/aws, r/Python
    - Hacker News
    - Dev.to article

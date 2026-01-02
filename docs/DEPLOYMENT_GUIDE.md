@@ -80,7 +80,6 @@ uv run pytest tests/ -v
 
 - [Integration Guide](../kiro_integration_guide.md) - Complete integration instructions
 - [Architecture Diagram](../generated-diagrams/) - System architecture visualization
-- [LinkedIn Post](../linkedin_viral_post.md) - Project announcement
 
 ## 🛡️ Security
 

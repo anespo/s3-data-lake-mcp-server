@@ -24,8 +24,7 @@ s3-data-lake-mcp-server/
 ├── 📁 docs/                               # Documentation
 │   ├── 📄 DEPLOYMENT_GUIDE.md            # Complete deployment instructions
 │   ├── 📄 ARCHITECTURE.md                # System design and components
-│   ├── 📄 PROJECT_STRUCTURE.md           # This file
-│   └── 📄 linkedin_viral_post.md          # LinkedIn announcement post
+│   └── 📄 PROJECT_STRUCTURE.md           # This file
 │
 ├── 📁 generated-diagrams/                 # Architecture diagrams
 │   └── 📄 s3_data_lake_mcp_architecture.png
@@ -71,7 +70,6 @@ s3-data-lake-mcp-server/
 - **`README.md`** - Main project documentation with viral GitHub appeal
 - **`docs/DEPLOYMENT_GUIDE.md`** - Step-by-step deployment instructions
 - **`docs/ARCHITECTURE.md`** - System architecture and design decisions
-- **`docs/linkedin_viral_post.md`** - LinkedIn announcement post
 - **`DEPLOYMENT_SUMMARY.md`** - Complete deployment status and results
 
 ### Architecture
@@ -119,7 +117,6 @@ s3-data-lake-mcp-server/
 2. **Deploy**: `docs/DEPLOYMENT_GUIDE.md` - Complete deployment instructions
 3. **Understand**: `docs/ARCHITECTURE.md` - System design and components
 4. **Integrate**: `kiro_integration_guide.md` - Integration with Kiro/Strands
-5. **Announce**: `docs/linkedin_viral_post.md` - Share your success
 
 ## 🔄 Development Workflow
 
